@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>It's April</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="LOAD()">
+
+    <script>
+
+        function LOAD() {
+      
+      alert("Never Gonna Give You Up");
+      alert("Never Gonna Let You Down");
+      alert("Never gonna run around and desert you");
+      alert("Never gonna make you cry");
+      alert("Never gonna say goodbye");
+      alert("Never gonna tell a lie and hurt you");
+      
+    }
+    
+    </script>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <center>
+
+            <h2>Never Gonna Give You Up</h2>
+            <h2>LOL😂</h2>
+    
+  
+
+        <img src="https://media.tenor.com/_4YgA77ExHEAAAAd/rick-roll.gif" width="60%" height="10%">
+
+        <br>
+        <br>
+
+        <div>
+
+            <audio id="audio">
+                <source src="Rickroll.mp3" type="audio/mpeg">
+            </audio>
+        
+            <button id="playPauseBTN" onclick="playPause()">Play ►</button>
+    
+        </div>
+    
+    
+
+        <script>
+
+            var audio = document.getElementById('audio');
+            var playPauseBTN = document.getElementById('playPauseBTN');
+            var count = 0;
+            
+            function playPause(){
+            if(count == 0){
+            count = 1;
+            audio.play();
+            playPauseBTN.innerHTML = "Pause ⏸";
+            }else{
+            count = 0;
+            audio.pause();
+            playPauseBTN.innerHTML = "Play ►";
+            }
+            
+            }
+            
+            </script>
+            
+            <script src="js/custom.js"></script>
+
+        </center>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            
+            
+
+
+</body>
+</html>
